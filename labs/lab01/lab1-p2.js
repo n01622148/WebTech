@@ -5,21 +5,25 @@ const path = require("path")
 const app = http.createServer((req, res)=>{
     
     if (req.url === "/"){
-        let webpage = fs.readFileSync("homepage.html")
+        let webpage = fs.readFileSync("home.html")
         res.end(webpage)
-    }else if (req.url === "/homepage"){
-        let webpage = fs.readFileSync("homepage.html")
+    }else if (req.url === "/home"){
+        let webpage = fs.readFileSync("home.html")
         res.end(webpage)
     } else if (req.url === "/about"){
-        res.end("Hello from about page")
+        let webpage = fs.readFileSync("about.html")
+        res.end(webpage)
     } else if (req.url === "/contact"){
-        res.end("Hello from contact page")
+        let webpage = fs.readFileSync("contact.html")
+        res.end(webpage)
     } else if (req.url === "/login"){
-        res.end("Hello from login form")
+        let webpage = fs.readFileSync("login.html")
+        res.end(webpage)
     }else if (req.url === "/fetch_data"){
         res.end("Hello from fetch_data")
     }else {
-        res.end("ERROR 404 - page not found")
+        let webpage = fs.readFileSync("pagenotfound.html")
+        res.end(webpage)
     }
 })
 let PORT = 8000

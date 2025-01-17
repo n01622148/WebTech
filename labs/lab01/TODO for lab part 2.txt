@@ -1,9 +1,0 @@
-To do for part 2 of lab:
-
-make routes/endpoint calls for store front:
-
--/homepage
--/about
--/contact_us
--/login
--/fetch_data
