@@ -4,20 +4,28 @@ const path = require("path")
 
 const app = http.createServer((req, res)=>{
     
-    if (req.url === "/"){
-        let webpage = fs.readFileSync("home.html")
-        res.end(webpage)
-    }else if (req.url === "/home"){
-        let webpage = fs.readFileSync("home.html")
+    /*
+    switch (req.url) {
+        case "/" || "/home":
+            
+            break;
+    
+        default:
+            break;
+    }
+    
+*/
+    if (req.url === "/" || res.url ==="/home"){
+        let webpage = fs.readFileSync("pages/home.html")
         res.end(webpage)
     } else if (req.url === "/about"){
-        let webpage = fs.readFileSync("about.html")
+        let webpage = fs.readFileSync("pages/about.html")
         res.end(webpage)
     } else if (req.url === "/contact"){
-        let webpage = fs.readFileSync("contact.html")
+        let webpage = fs.readFileSync("pages/contact.html")
         res.end(webpage)
     } else if (req.url === "/login"){
-        let webpage = fs.readFileSync("login.html")
+        let webpage = fs.readFileSync("pages/login.html")
         res.end(webpage)
     }else if (req.url === "/fetch_data"){
         res.end("Hello from fetch_data")

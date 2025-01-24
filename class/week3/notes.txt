@@ -1,0 +1,5 @@
+npm init -y 
+npm i express nodemon
+npm i dotenv
+
+npm i express nodemon dotenv
