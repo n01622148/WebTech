@@ -21,9 +21,6 @@ app.delete("/", (req, res)=>{
     res.send("Welcome to the server - DELETE")
 })
 
-
-
-
 app.get("/watch", (req, res)=>{
     console.log("URL call: ")
     console.log(req.url)
@@ -33,7 +30,7 @@ app.get("/watch", (req, res)=>{
     console.log(req.headers)
     console.log("Query call: ")
     console.log(req.query)
-    console.log("param call: ")
+    console.lotg("param call: ")
     console.log(req.params)
     console.log("body call: ")
     console.log(req.body)
