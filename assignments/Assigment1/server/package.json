@@ -1,20 +1,18 @@
 {
-  "name": "webtech",
+  "name": "server",
   "version": "1.0.0",
-  "description": "01-09-2025\r -innitial commit",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "create-vite-app": "^1.21.0",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
-    "lodash": "^4.17.21",
-    "node-package-manager": "^1.0.2",
-    "nodemon": "^3.1.9",
-    "npm": "^11.1.0"
+    "nodemon": "^3.1.9"
   }
 }
