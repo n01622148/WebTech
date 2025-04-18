@@ -1,0 +1,117 @@
+#root {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  top: 0;
+}
+
+app {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #393939;
+  width: 110%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+}
+
+.navname {
+  font-size: large;
+  background-color: #4a4a4a;
+  box-shadow: 1px 1px 1px 1px #202020;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.Content {
+  width: 100%;
+}
+
+.page {
+  width: 500px;
+  text-align: left;
+}
+
+.list{
+  text-align: left;
+  width:100% ;
+}
+
+.card {
+  width:95%;
+  padding: 7px;
+  padding-left: 7px;
+  padding-right: 15px;
+  margin: 10px;
+  box-shadow: 1px 1px 1px 1px #202020;
+  background-color: #393939;
+  border-radius: 5px;
+  justify-self: left;
+  margin: 5px;
+}
+
+h4 {
+  justify-self: left;
+  padding-left: 25px;
+  font-weight: 800;
+}
+
+span {
+  font-size: 30px;
+}
+
+.delete {
+  text-align: right;
+}
+
+p {
+  justify-self: left;
+  padding-left: 25px;
+}
+
+.buttons {
+  width: 100%;
+  justify-content: left;
+  text-align: left;
+}
+
+.page {
+  background-color: #4a4a4a;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 150px;
+  width: 500px;
+  font-size: 150%;
+}
+
+form {
+  text-align: end;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: larger;
+  min-height: 250px auto;
+}
+
+input {
+  font-size: larger;
+}
+
+.cardtext {
+  text-align: justify;
+}
+
+button {
+  box-shadow: 1px 1px 1px 1px #202020;
+}
